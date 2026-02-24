@@ -9,4 +9,8 @@ unique_to_a = friend_a - friend_b
 
 print("Shared Interests:", shared_interests)
 print("All Interests:", all_interests)
+<<<<<<< HEAD
 print("Unique Interests (Friend A only):", unique_to_a)
+=======
+print("Unique Interests (Friend A only):", unique_to_a)
+>>>>>>> 5078fcc88d7aebc08da7b8392d5674892e302cea

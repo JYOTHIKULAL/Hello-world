@@ -19,4 +19,8 @@ print("Eve:", missing_contact)
 print("\nContact List:")
 
 for name, phone in contacts.items():
+<<<<<<< HEAD
     print(f"Contact: {name} | Phone: {phone}")
+=======
+    print(f"Contact: {name} | Phone: {phone}")
+>>>>>>> 5078fcc88d7aebc08da7b8392d5674892e302cea

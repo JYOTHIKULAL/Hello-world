@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 10 11:52:17 2026
+
+@author: hp
+"""
+
+import numpy as np
+
+# Step 1: Create 5x3 dataset (5 students, 3 subjects)
+scores = np.random.randint(50, 101, size=(5, 3))
+
+# Step 2: Calculate column-wise mean (subject-wise mean)
+mean_scores = scores.mean(axis=0)
+
+# Step 3: Subtract mean using broadcasting
+centered_scores = scores - mean_scores
+
+# Step 4: Output
+print("Original Scores:\n", scores)
+print("\nSubject-wise Mean:\n", mean_scores)
+print("\nCentered (Normalized) Scores:\n", centered_scores)

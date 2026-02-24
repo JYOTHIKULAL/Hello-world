@@ -7,4 +7,8 @@ try:
         print(content)
 
 except FileNotFoundError:
+<<<<<<< HEAD
     print("Oops! That file doesn't exist yet 😅")
+=======
+    print("Oops! That file doesn't exist yet 😅")
+>>>>>>> 5078fcc88d7aebc08da7b8392d5674892e302cea
