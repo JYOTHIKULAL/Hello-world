@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{titlesec}
+
+\title{\textbf{Customer Analytics Mini Project}\\
+	Source Code Documentation}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	\tableofcontents
+	\newpage
+	
+	% --------------------------------
+	\section{Project Overview}
+	
+	This project performs Exploratory Data Analysis (EDA) 
+	on customer data to generate meaningful insights. 
+	
+	The analysis includes:
+	\begin{itemize}
+		\item Data cleaning
+		\item Missing value analysis
+		\item Summary statistics
+		\item Data visualization
+	\end{itemize}
+	
+	% --------------------------------
+	\section{Project Structure}
+	
+	\begin{verbatim}
+		MiniProject1/
+		|
+		|-- data_summary.txt
+		|-- eda_script.py
+		|-- Final_Report.pdf
+		|-- MiniProject1_EDA.ipynb
+		|-- README.md
+		|-- requirements.txt
+	\end{verbatim}
+	
+	% --------------------------------
+	\section{README.md}
+	
+	The README file contains:
+	\begin{itemize}
+		\item Project description
+		\item Installation instructions
+		\item Execution steps
+	\end{itemize}
+	
+	To install dependencies:
+	
+	\begin{verbatim}
+		pip install -r requirements.txt
+	\end{verbatim}
+	
+	To run the Python script:
+	
+	\begin{verbatim}
+		python eda_script.py
+	\end{verbatim}
+	
+	% --------------------------------
+	\section{EDA Script (eda\_script.py)}
+	
+	This script performs the following tasks:
+	
+	\begin{itemize}
+		\item Loads the dataset
+		\item Cleans missing values
+		\item Generates summary statistics
+		\item Creates visualizations
+		\item Exports summary results to a text file
+	\end{itemize}
+	
+	% --------------------------------
+	\section{Jupyter Notebook (MiniProject1\_EDA.ipynb)}
+	
+	The notebook contains step-by-step analysis including:
+	
+	\begin{itemize}
+		\item Data inspection
+		\item Data preprocessing
+		\item Visualization using matplotlib and seaborn
+		\item Correlation analysis
+	\end{itemize}
+	
+	% --------------------------------
+	\section{Data Summary (data\_summary.txt)}
+	
+	This file contains:
+	
+	\begin{itemize}
+		\item Statistical summary of numerical columns
+		\item Missing value counts
+		\item Key observations
+	\end{itemize}
+	
+	% --------------------------------
+	\section{Final Report (Final\_Report.pdf)}
+	
+	This PDF file presents:
+	
+	\begin{itemize}
+		\item Project objective
+		\item Methodology
+		\item Key findings
+		\item Visualizations
+		\item Business insights
+	\end{itemize}
+	
+	% --------------------------------
+	\section{System Requirements}
+	
+	\begin{itemize}
+		\item Python 3.9+
+		\item pandas
+		\item numpy
+		\item matplotlib
+		\item seaborn
+		\item jupyter
+	\end{itemize}
+	
+	% --------------------------------
+	\section{Conclusion}
+	
+	The project is well-structured and modular.  
+	It demonstrates practical implementation of data cleaning, 
+	analysis, and visualization techniques used in real-world 
+	data science workflows.
+	
+\end{document}
