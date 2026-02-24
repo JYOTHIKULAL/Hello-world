@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 18 11:19:41 2026
+
+@author: hp
+"""
+
+
+p_spam = 0.10
+p_ham = 0.90
+
+p_free_given_spam = 0.90   
+p_free_given_ham = 0.05
+
+p_free = (p_free_given_spam * p_spam) + (p_free_given_ham * p_ham)
+
+p_spam_given_free = (p_free_given_spam * p_spam) / p_free
+
+print("Probability the email is Spam given it contains 'Free':")
+print(p_spam_given_free)
